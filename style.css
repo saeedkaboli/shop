@@ -74,7 +74,7 @@ section,div,span,h1,h2,h3,h4,h5,h6,header{
          /* display: none; */
          transition: 1s;
          opacity: 0;
-         /* overflow: auto; */
+         overflow: auto;
          display: flex;
          justify-content:flex-start;
          align-items: center;
@@ -86,20 +86,56 @@ section,div,span,h1,h2,h3,h4,h5,h6,header{
          border-radius: 0px 0px 10px 10px;
          background-color: rgb(177, 8, 8);
          position: absolute;
-         bottom: -40px;
+         /* bottom:0; */
          display: flex;
          justify-content: center;
          align-items: center;
          color: #fff;
          font-weight: 500;
          cursor: pointer;
+         top: 340px;
+         transition: 1s;
+         opacity: 0;
      }
      #child{
          width: 90%;
-         height: 30px;
-         background-color: rgb(139, 139, 139);
+         height: 50px;
+         background-color: #c9c9c9;
          border-radius: 5px;
          margin: 5px 0px;
+         display: flex;
+         justify-content:space-around;
+         align-items: center;
+         direction: ltr;
+     }
+     #SmallImg{
+         width: 50px;
+         height: 100%;
+         /* border: 1px solid red; */
+     }
+     header p{
+         display: block;
+         width: 40%;
+         height: 100%;
+         /* border: 1px solid green; */
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     #Del{
+         width:20px;
+         height: 20px;
+         border-radius: 50px;
+         background-color: red;
+         color: #fff;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         cursor: pointer;
+     }
+     #SmallImg>img{
+         width: 20%;
+         height: auto;
      }
     .Sing-in,.Sing-up{
         width: 90px;
